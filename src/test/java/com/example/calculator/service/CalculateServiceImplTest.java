@@ -2,7 +2,6 @@ package com.example.calculator.service;
 
 import com.example.calculator.exceptions.DivideException;
 import com.example.calculator.interfaces.CalculateService;
-import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

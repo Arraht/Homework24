@@ -2,14 +2,13 @@ package com.example.calculator.controller;
 
 import com.example.calculator.interfaces.WelcomeService;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class WelcomeControllerImpl {
+public class WelcomeController {
     private final WelcomeService welcomeService;
 
-    public WelcomeControllerImpl(WelcomeService welcomeService) {
+    public WelcomeController(WelcomeService welcomeService) {
         this.welcomeService = welcomeService;
     }
     @GetMapping(path = "/calculator")
